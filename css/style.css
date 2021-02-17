@@ -30,15 +30,18 @@ canvas {
     float: left;
     width: 50%;
     text-align: left;
+    margin-bottom: 25vh;
 }
 .column img {
     margin-left: 40px;
-    margin-bottom: 25vh;
+    margin-bottom: 15vh;
+    width: auto;
+    height: 4rem;
 }
 .column .banner {
     margin: 0;
     height: auto;
-    width: 100%;
+    width: 40vw;
 }
 h1 {
     margin-left: 40px;
