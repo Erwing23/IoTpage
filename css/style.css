@@ -70,9 +70,9 @@ a {
     width: 10rem;
     height: 2rem;
     font-size: 1.5rem;
-    margin-left: 40px;
+    margin: auto;
     margin-top: 15px;
-    background-color: green;
+    background-color: #f1df00;
     text-align: center;
     border-radius: 20px;
     text-decoration: none;
@@ -159,21 +159,26 @@ a {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.descubre {
+    background-color: #f1df00;
+    margin-top: 15vh;
+}
 .descubre h2 {
     font-size: 3rem;
     text-align: center;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    margin-bottom: 60px;
 }
 .descubre h5 {
     font-size: 1rem;
     text-align: center;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 .flex-container2 {
     display: flex;
     background-color: #ffffff;
 
-    padding: 100px 0px 100px 0px;
+    padding: 0 0px 100px 0px;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
@@ -184,6 +189,8 @@ a {
 .flex-item-sec {
     display: flex;
     background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 50px;
     width: 30vw;
     height: 50vh;
@@ -191,6 +198,7 @@ a {
     flex-direction: column;
     justify-content: center;
     min-width: 420px;
+    max-width: 200px;
     font-size: 20px;
 }
 .flex-item-sec img {
@@ -212,11 +220,11 @@ a {
 }
 .wasap {
     position: fixed;
-    top: 90vh;
-    left: 90vw;
+    top: 92vh;
+    left: 93vw;
 }
 .wasap img {
-    width: 100px;
+    width: 75px;
     height: auto;
 }
 
