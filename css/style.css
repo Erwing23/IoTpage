@@ -234,8 +234,8 @@ a {
 }
 .wasap {
     position: fixed;
-    top: 92vh;
-    left: 93vw;
+    z-index: 15;
+    bottom: 0%;
 }
 .wasap img {
     width: 75px;
@@ -470,5 +470,43 @@ a {
         display: flex;
         align-items: center;
         border-radius: 50%;
+    }
+    @media (max-width: 425px) {
+        .flex-container .flex-item {
+            min-width: 80vw;
+            text-align: center;
+        }
+        .descubre {
+            margin-top: 0;
+            padding: 0 30px;
+        }
+        .flex-container2 .flex-item-sec {
+            min-width: 80vw;
+            height: auto;
+            text-align: center;
+        }
+        .button2 {
+            margin-top: 25px;
+        }
+        .padre {
+            height: 50px;
+            width: 50px;
+        }
+
+        .iconos .iconcon {
+            width: 18vw;
+        }
+        .iconcon .icon {
+            height: 30px;
+        }
+        .timeline .center-line {
+            left: 10%;
+        }
+        .row {
+            margin-left: 50px;
+        }
+        .timeline .row section {
+            width: 75vw;
+        }
     }
 }
