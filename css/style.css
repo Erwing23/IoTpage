@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: poopinsbold;
+}
 /* ---- reset ---- */
 
 body {
@@ -28,22 +31,22 @@ canvas {
 }
 .column {
     float: left;
-    width: 50%;
+    width: 60%;
     text-align: left;
 }
 .left {
     margin-top: 20vh;
 }
 .column img {
-    margin-left: 40px;
+    margin-left: 0px;
 
     width: auto;
-    height: 4rem;
+    height: 6rem;
 }
 #banner {
     float: left;
-    width: 50%;
-    top: 5vh;
+    width: 40%;
+    margin-top: 10vh;
 }
 @media (max-width: 1200px) {
     #banner {
@@ -60,15 +63,13 @@ canvas {
 }
 
 #banner img {
-    display: flex;
+    height: 700px;
     width: auto;
-    height: 35rem;
-    text-align: center;
-    align-items: center;
     margin: auto;
 }
 h1 {
     color: white;
+    font-size: 3.5rem;
     margin-bottom: 3vh;
 }
 
@@ -81,15 +82,17 @@ a {
     text-decoration: none;
 }
 .button {
-    width: 10rem;
-    height: 2rem;
-    font-size: 1.5rem;
-    margin: auto;
+    width: 20rem;
+    height: 4rem;
+    font-size: 2rem;
+    margin: 0;
+    line-height: 4rem;
     margin-top: 15px;
-    background-color: #f1df00;
+    background-color: #f59a21;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 30px;
     text-decoration: none;
+    color: whitesmoke;
 }
 .button2 {
     display: flex;
@@ -168,7 +171,7 @@ a {
 .flex-container {
     display: flex;
     background-color: #ffffff;
-    margin-top: 17.5vh;
+    margin-top: 10vh;
     padding: 0 0px 0 0px;
     flex-wrap: wrap;
     justify-content: space-evenly;
