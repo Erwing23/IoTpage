@@ -1,13 +1,19 @@
+@font-face {
+    font-family: "poppinsbold";
+    src: url(https://erwing23.github.io/IoTpage/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "myriad";
+    src: url(https://erwing23.github.io/IoTpage/fonts/Myriad-Pro-Regular.ttf);
+}
 * {
     overflow-x: hidden;
-    font-family: "Jost", sans-serif;
+    font-family: "poppinsbold";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: poopinsbold;
-}
+
 /* ---- reset ---- */
 
 body {
@@ -21,6 +27,7 @@ canvas {
     margin-top: 6vh;
     position: relative;
     font-size: 30px;
+    font-family: "poppinsbold";
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -48,6 +55,20 @@ canvas {
     width: 40%;
     margin-top: 10vh;
 }
+.button {
+    width: 20rem;
+    height: 4rem;
+    font-size: 2rem;
+    margin: 0;
+    line-height: 4rem;
+    margin-top: 15px;
+    background-color: #f59a21;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "myriad";
+}
 @media (max-width: 1200px) {
     #banner {
         display: none;
@@ -59,6 +80,10 @@ canvas {
         text-align: center;
         width: 100%;
         justify-content: center;
+    }
+    .button {
+        margin: auto;
+        margin-bottom: 40vh;
     }
 }
 
@@ -81,19 +106,7 @@ h4 {
 a {
     text-decoration: none;
 }
-.button {
-    width: 20rem;
-    height: 4rem;
-    font-size: 2rem;
-    margin: 0;
-    line-height: 4rem;
-    margin-top: 15px;
-    background-color: #f59a21;
-    text-align: center;
-    border-radius: 30px;
-    text-decoration: none;
-    color: whitesmoke;
-}
+
 .button2 {
     display: flex;
     align-items: center;
@@ -169,28 +182,32 @@ a {
 }
 /*Flex container*/
 .flex-container {
+    position: relative;
     display: flex;
     background-color: #ffffff;
-    margin-top: 10vh;
+    margin-top: 0vh;
     padding: 0 0px 0 0px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    height: auto;
 }
 .descubre {
-    background-color: #f1df00;
+    background: linear-gradient(213.54deg, #ebc61d 10.15%, #faa51a 88.66%);
     margin-top: 15vh;
+    height: 20vh;
 }
 .descubre h2 {
-    font-size: 3rem;
+    color: white;
+    font-size: 4.5rem;
     text-align: center;
-    padding-top: 50px;
-    margin-bottom: 60px;
+    line-height: 20vh;
 }
 .descubre h5 {
     font-size: 1rem;
     text-align: center;
     padding-bottom: 50px;
 }
+
 .flex-container2 {
     display: flex;
     background-color: #ffffff;
@@ -201,7 +218,17 @@ a {
 }
 .flex-item h1 {
     color: black;
-    padding: 20px;
+    font-size: 3rem;
+    padding: 0px;
+}
+.flex-item p {
+    color: black;
+    font-size: 1.5rem;
+    padding: 0px;
+    font-family: "myriad";
+}
+.flex-item img {
+    width: 100%;
 }
 .flex-item-sec {
     display: flex;
@@ -210,7 +237,7 @@ a {
     margin-right: 10px;
     margin-top: 50px;
     width: 30vw;
-    height: 50vh;
+    height: 60vh;
     overflow: auto;
     flex-direction: column;
     justify-content: center;
@@ -274,20 +301,34 @@ a {
 }
 .timeline {
     position: relative;
-    background-color: #bbd622;
+    background: linear-gradient(213.54deg, #ebc61d 10.15%, #faa51a 88.66%);
     margin: 25px auto;
     padding: 10px;
-    height: 65vh;
+    height: 70vh;
     z-index: -1;
+}
+.como h1 {
+    text-align: center;
+    color: black;
 }
 
 .timeline .center-line {
     position: absolute;
-    width: 100%;
+    width: 80%;
     height: 8px;
     background-color: #f6f6f6;
     top: 50%;
+    left: 10%;
     z-index: 5;
+}
+.timeline .back {
+    position: absolute;
+    font-size: 20rem;
+    margin-left: 200px;
+    margin-top: 80px;
+
+    color: rgba(189, 129, 18, 0.986);
+    transform: rotate(5.25deg);
 }
 .timeline {
     display: flex;
@@ -373,17 +414,32 @@ a {
 }
 
 @media (max-width: 900px) {
+    .left {
+        margin-top: 0;
+    }
+    .left h1 {
+        font-size: 3rem;
+    }
+
     .flex-container {
-        margin-top: 25vh;
+        margin-top: 0vh;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
     .flex-item {
         width: 60vw;
-        height: 50vh;
+        height: 60vh;
     }
-
+    .flex-item h1 {
+        font-size: 2.5rem;
+    }
+    .descubre {
+        height: 40vh;
+    }
+    .descubre h2 {
+        font-size: 4rem;
+    }
     .timeline {
         position: relative;
         flex-direction: column;
