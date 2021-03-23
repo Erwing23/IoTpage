@@ -147,31 +147,32 @@ h4 {
 }
 a {
     text-decoration: none;
+    color: inherit;
+}
+.button2 a {
+    width: 10rem;
+    text-align: center;
+    color: inherit;
 }
 
 .button2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 10rem;
     height: 2rem;
     font-size: 1rem;
-    margin-left: 40px;
-    margin-top: 15px;
-    margin: auto;
-    border: 2px solid rgb(255, 0, 0);
+    text-align: center;
+    border: 3px solid #f8ac1b;
     border-radius: 20px;
+    margin: auto;
     background-color: rgb(255, 255, 255);
 
     text-decoration: none;
 }
 .button2:hover {
     background-color: orange;
-
+    color: white;
     transition: 0.5s;
 }
 .button2 a:hover {
-    color: white;
     transition: 0.3s;
 }
 
@@ -349,8 +350,9 @@ a {
     position: relative;
     margin: 25px auto;
     padding: 10px;
-    height: 70vh;
+    height: 80vh;
     z-index: 0;
+    overflow: hidden;
 }
 .como h1 {
     text-align: center;
@@ -368,11 +370,11 @@ a {
 }
 .timeline .back {
     position: absolute;
-    font-size: 20rem;
-    margin-left: 200px;
-    margin-top: 80px;
+    font-size: 30rem;
+    margin-left: 10px;
+    margin-top: 10px;
 
-    color: rgba(189, 129, 18, 0.986);
+    color: #f49f15;
     transform: rotate(5.25deg);
 }
 .timeline {
