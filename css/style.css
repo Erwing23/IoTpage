@@ -284,13 +284,13 @@ a {
     justify-content: space-evenly;
 }
 .flex-item h1 {
-    color: black;
+    color: #5a5a5a;
     font-size: 3rem;
     padding: 0px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .flex-item p {
-    color: black;
+    color: #5a5a5a;
     font-size: 1.5rem;
     padding: 0px;
     font-family: "myriad";
@@ -320,7 +320,7 @@ a {
     margin: auto;
 }
 .flex-item-sec h1 {
-    color: black;
+    color: #5a5a5a;
     font-size: 2rem;
     text-align: center;
 }
@@ -477,20 +477,34 @@ a {
     z-index: 10;
     overflow: hidden;
 }
-.iconos2 li {
-    display: inline-block;
+.iconos2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.iconos2 img {
+    height: 40px;
+    margin: auto;
+
+    padding: 0px;
+}
+.sep {
+    display: flex;
+
+    width: 70px;
+    height: 70px;
+
+    text-align: center;
     border: 3px solid white;
     border-radius: 50%;
-    margin: 0 10px;
-    margin-bottom: 20px;
-    padding: 10px;
-    text-align: center;
 }
 .foot {
     background-color: orange;
 }
-.iconos2 img {
-    width: 35px;
+.iconos2 li img {
+    width: 10px;
+    height: 10px;
 }
 .iconos .iconcon {
     display: flex;
@@ -528,7 +542,7 @@ a {
     text-align: center;
 }
 .equipo h1 {
-    color: black;
+    color: #5a5a5a;
 
     margin-top: 50px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
