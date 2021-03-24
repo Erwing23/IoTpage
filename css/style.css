@@ -239,6 +239,7 @@ a {
     height: 100vh;
     background-color: #131921;
     background-image: url("");
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -266,6 +267,7 @@ a {
     font-size: 3rem;
     text-align: center;
     line-height: 20vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .descubre h5 {
     font-size: 1rem;
@@ -285,7 +287,7 @@ a {
     color: black;
     font-size: 3rem;
     padding: 0px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .flex-item p {
     color: black;
@@ -396,7 +398,7 @@ a {
     color: white;
     font-size: 3rem;
 
-    text-shadow: 0px 0px 10px black;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .timeline .center-line {
@@ -407,6 +409,7 @@ a {
     top: 50%;
     left: 10%;
     z-index: 5;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .timeline .back {
     position: absolute;
@@ -434,13 +437,14 @@ a {
     border-radius: 10px;
 
     width: 18vw;
-    height: 20vh;
+    height: 17vh;
     text-align: center;
     padding: 5px;
     margin: 20px;
     display: flex;
     align-items: center;
     overflow: hidden;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .row {
@@ -455,12 +459,13 @@ a {
     background-color: white;
     left: 50%;
     transform: rotate(45deg);
+    z-index: 4;
 }
 .row-1::before {
-    bottom: 9px;
+    bottom: 11px;
 }
 .row-2::before {
-    top: 9px;
+    top: 11px;
 }
 .iconos {
     position: absolute;
@@ -472,6 +477,21 @@ a {
     z-index: 10;
     overflow: hidden;
 }
+.iconos2 li {
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.foot {
+    background-color: orange;
+}
+.iconos2 img {
+    width: 35px;
+}
 .iconos .iconcon {
     display: flex;
     width: 18vw;
@@ -482,7 +502,7 @@ a {
 }
 .iconos .icon {
     margin: auto;
-    display: none;
+
     line-height: 50px;
     text-align: center;
     height: 60px;
@@ -490,14 +510,56 @@ a {
     border-radius: 50%;
     overflow: hidden;
 }
+.padre img {
+    height: 50px;
+}
 .padre {
     overflow: hidden;
     background-color: white;
     height: 80px;
     width: 80px;
     display: flex;
+    justify-content: center;
     align-items: center;
     border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.equipo {
+    text-align: center;
+}
+.equipo h1 {
+    color: black;
+
+    margin-top: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.equipo p {
+    font-family: "myriad";
+    font-size: 1.2rem;
+}
+.flex3 {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.flexitem3 img {
+    width: 270px;
+    height: 270px;
+}
+.flexitem3 {
+    margin: 0 20px;
+}
+.footer {
+    background-color: #131921;
+    text-align: center;
+    padding-top: 100px;
+}
+.logofooter {
+    height: auto;
+    width: 450px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 900px) {
@@ -617,6 +679,7 @@ a {
         align-items: center;
         border-radius: 50%;
     }
+
     @media (max-width: 425px) {
         .flex-container .flex-item {
             min-width: 80vw;
