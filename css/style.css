@@ -42,9 +42,15 @@ canvas {
     float: left;
     width: 60%;
     text-align: left;
+    margin-top: 13vh;
 }
 .left {
     margin-top: 10vh;
+}
+.wrapper p {
+    color: white;
+    font-family: "myriad";
+    margin-bottom: 80px;
 }
 .column img {
     margin-left: -16px;
@@ -79,6 +85,68 @@ canvas {
 .bounce-left {
     animation-name: bounce-left;
     animation-timing-function: ease;
+}
+.navbar2 {
+    height: 6vh;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    line-height: 6vh;
+    vertical-align: middle;
+    background-color: rgb(0, 0, 0);
+}
+.navbar2 img {
+    margin-left: 65px;
+    align-self: center;
+    opacity: 1;
+    width: 174px;
+    height: 53px;
+    vertical-align: middle;
+}
+.navbar2 .menu {
+    display: flex;
+    justify-content: end;
+    float: right;
+    margin-right: 65px;
+}
+
+.navbar2 ul li {
+    vertical-align: middle;
+    font-size: 25px;
+    color: white;
+    margin: 0 40px;
+    display: inline-block;
+}
+.navbar {
+    height: 8.5vh;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    line-height: 8.5vh;
+    vertical-align: middle;
+}
+.navbar img {
+    margin-left: 65px;
+    align-self: center;
+    opacity: 1;
+    width: 174px;
+    height: 53px;
+
+    vertical-align: middle;
+}
+.navbar .menu {
+    display: flex;
+    justify-content: end;
+    float: right;
+    margin-right: 65px;
+}
+.navbar ul li {
+    font-size: 25px;
+    color: white;
+    margin: 0 40px;
+    display: inline-block;
 }
 @keyframes bounce {
     0% {
@@ -324,6 +392,9 @@ a {
     font-size: 2rem;
     text-align: center;
 }
+.flex-item-sec span {
+    opacity: 0;
+}
 .flex-item-sec p {
     font-size: 1rem;
     text-align: justify;
@@ -360,11 +431,11 @@ a {
     text-align: center;
     margin-top: 5vh;
 }
-
-.clientes ul li {
-    display: inline-block;
-    margin-top: 12vh;
+.menu {
+    z-index: 10;
+    color: #3821ff;
 }
+
 .clientes img {
     width: 200px;
     height: 200px;
@@ -480,7 +551,8 @@ a {
 .iconos2 {
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0 40vw;
     margin-bottom: 40px;
 }
 .iconos2 img {
@@ -492,8 +564,8 @@ a {
 .sep {
     display: flex;
 
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 
     text-align: center;
     border: 3px solid white;
@@ -540,6 +612,7 @@ a {
 }
 .equipo {
     text-align: center;
+    margin-bottom: 80px;
 }
 .equipo h1 {
     color: #5a5a5a;
@@ -568,11 +641,11 @@ a {
 .footer {
     background-color: #131921;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 .logofooter {
     height: auto;
-    width: 450px;
+    width: 350px;
     margin-bottom: 30px;
 }
 
