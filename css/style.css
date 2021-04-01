@@ -88,12 +88,12 @@ canvas {
     animation-timing-function: ease;
 }
 .navbar2 {
-    height: 6vh;
+    height: 8vh;
     z-index: 100;
     position: fixed;
     top: 0;
     width: 100%;
-    line-height: 6vh;
+    line-height: 8vh;
     vertical-align: middle;
     background-color: rgb(0, 0, 0);
 }
@@ -410,10 +410,10 @@ a {
     position: fixed;
     z-index: 1;
     bottom: 1%;
-    right: 1%;
+    right: 3%;
 }
 .wasap img {
-    width: 75px;
+    width: 68px;
     height: auto;
 }
 
