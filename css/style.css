@@ -444,6 +444,7 @@ a {
 .contenedor {
     background: linear-gradient(213.54deg, #ebc61d 10.15%, #faa51a 88.66%);
     z-index: -2;
+    margin-top: 80px;
 }
 .timeline {
     position: relative;
@@ -648,6 +649,31 @@ a {
     width: 350px;
     margin-bottom: 30px;
 }
+.flexpar h1 {
+    color: black;
+    font-size: 3rem;
+}
+.flexpar {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+.fleximg img {
+    width: 525px;
+}
+.flextext {
+    max-width: 70vh;
+    margin-top: 20vh;
+}
+.linkk {
+    color: blue;
+    text-decoration: underline;
+}
+.flextext p {
+    font-family: "myriad";
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
 
 @media (max-width: 900px) {
     .left {
@@ -673,6 +699,7 @@ a {
     .descubre {
         height: 40vh;
     }
+
     .descubre h2 {
         font-size: 4rem;
     }
