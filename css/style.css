@@ -19,6 +19,7 @@
 
 body {
     margin: 0;
+    background-color: #141921;
 }
 
 canvas {
@@ -320,14 +321,16 @@ a {
     display: flex;
     background-color: #ffffff;
     margin-top: 0vh;
+    margin: 0 40px;
     padding: 0 0px 0 0px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     height: auto;
+    padding-bottom: 15vh;
 }
 .descubre {
     background: linear-gradient(213.54deg, #ebc61d 10.15%, #faa51a 88.66%);
-    margin-top: 15vh;
+    margin: 0 40px;
     height: 20vh;
 }
 .descubre h2 {
@@ -350,6 +353,7 @@ a {
     padding: 0 0px 100px 0px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    mar
 }
 .flex-item h1 {
     color: #5a5a5a;
@@ -444,7 +448,8 @@ a {
 .contenedor {
     background: linear-gradient(213.54deg, #ebc61d 10.15%, #faa51a 88.66%);
     z-index: -2;
-    margin-top: 80px;
+    margin: 0 40px;
+   
 }
 .timeline {
     position: relative;
@@ -508,7 +513,7 @@ a {
     background-color: white;
     border-radius: 10px;
 
-    width: 18vw;
+    width: 15vw;
     height: 17vh;
     text-align: center;
     padding: 5px;
@@ -613,7 +618,11 @@ a {
 }
 .equipo {
     text-align: center;
-    margin-bottom: 80px;
+    
+    padding-bottom: 80px;
+    background-color: white;
+    margin: 0 40px;
+
 }
 .equipo h1 {
     color: #5a5a5a;
@@ -655,8 +664,12 @@ a {
 }
 .flexpar {
     display: flex;
-    margin-top: 80px;
+   
     justify-content: space-around;
+    background-color: white;
+    margin: 0 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .fleximg img {
     width: 525px;
@@ -688,6 +701,7 @@ a {
         flex-direction: column;
         align-items: center;
         text-align: center;
+       
     }
     .flex-item {
         width: 60vw;

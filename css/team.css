@@ -14,6 +14,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+body {
+    background-color: #141921;
+}
 .navbar2 {
     height: 6vh;
     z-index: 100;
@@ -85,24 +88,28 @@
     display: flex;
     margin-top: 125px;
     margin-bottom: 125px;
+    background-color: white;
 }
 .flex-description {
     display: flex;
     flex-direction: column;
     width: 40vw;
     margin-left: 180px;
+    background-color: white;
 }
 .flex-description p {
     color: gray;
     font-size: 1rem;
     padding: 0px;
+    background-color: white;
 }
 .flex-description h1 {
     color: #5a5a5a;
     font-size: 3rem;
     padding: 0px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
     margin-bottom: 80px;
+    background-color: white;
 }
 .flex-header img {
     position: absolute;
@@ -112,6 +119,7 @@
 .naranja {
     height: 30vh;
     background-color: orange;
+    margin: 0 40px;
 }
 .button {
     width: 15rem;
@@ -132,11 +140,14 @@
 .flexpar h1 {
     color: black;
     font-size: 3rem;
+    background-color: white;
 }
 .flexpar {
     display: flex;
-    margin-top: 80px;
+    padding-top: 80px;
     justify-content: space-around;
+    background-color: white;
+    margin: 0 40px;
 }
 .fleximg img {
     width: 525px;
@@ -144,13 +155,16 @@
 .flextext {
     max-width: 70vh;
     margin-top: 20vh;
+    background-color: white;
 }
 .linkk {
     color: blue;
     text-decoration: underline;
+    background-color: white;
 }
 .flextext p {
     font-family: "myriad";
     font-size: 1.5rem;
     margin-bottom: 40px;
+    background-color: white;
 }
