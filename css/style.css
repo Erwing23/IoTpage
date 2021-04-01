@@ -353,7 +353,7 @@ a {
     padding: 0 0px 100px 0px;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    mar
+    margin: 0 40px;
 }
 .flex-item h1 {
     color: #5a5a5a;
@@ -449,7 +449,6 @@ a {
     background: linear-gradient(213.54deg, #ebc61d 10.15%, #faa51a 88.66%);
     z-index: -2;
     margin: 0 40px;
-   
 }
 .timeline {
     position: relative;
@@ -618,11 +617,10 @@ a {
 }
 .equipo {
     text-align: center;
-    
+
     padding-bottom: 80px;
     background-color: white;
     margin: 0 40px;
-
 }
 .equipo h1 {
     color: #5a5a5a;
@@ -665,7 +663,7 @@ a {
 }
 .flexpar {
     display: flex;
-   
+
     justify-content: space-around;
     background-color: white;
     margin: 0 40px;
@@ -702,7 +700,6 @@ a {
         flex-direction: column;
         align-items: center;
         text-align: center;
-       
     }
     .flex-item {
         width: 60vw;
