@@ -45,7 +45,7 @@ body {
 .navbar2 ul li {
     vertical-align: middle;
     font-size: 18px;
-    color: gray;
+    color: white;
     margin: 0 40px;
     display: inline-block;
 }
@@ -75,7 +75,7 @@ body {
 }
 .navbar ul li {
     font-size: 18px;
-    color: gray;
+    color: white;
     margin: 0 40px;
     display: inline-block;
 }
