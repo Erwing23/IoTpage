@@ -114,8 +114,8 @@ canvas {
 
 .navbar2 ul li {
     vertical-align: middle;
-    font-size: 25px;
-    color: white;
+    font-size: 18px;
+    color: gray;
     margin: 0 40px;
     display: inline-block;
 }
@@ -144,8 +144,8 @@ canvas {
     margin-right: 65px;
 }
 .navbar ul li {
-    font-size: 25px;
-    color: white;
+    font-size: 18px;
+    color: gray;
     margin: 0 40px;
     display: inline-block;
 }
@@ -644,6 +644,7 @@ a {
 .flexitem3 img {
     width: 270px;
     height: 270px;
+    border-radius: 12px;
 }
 .flexitem3 {
     margin: 0 20px;
