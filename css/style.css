@@ -217,6 +217,21 @@ canvas {
     font-family: "myriad";
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+.button4 {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+    margin: 20px 0;
+    background-color: #f59a21;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-family: "myriad";
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 @media (max-width: 1200px) {
     #banner {
         display: none;
@@ -572,16 +587,29 @@ a {
 }
 .iconos2 {
     display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-    margin: 0 40vw;
+    justify-content: flex-end;
+    margin: 0 85px;
     margin-bottom: 40px;
+    margin-top: 80px;
 }
 .iconos2 img {
-    height: 40px;
-    margin: auto;
+    height: 48px;
+    width: 48px;
 
     padding: 0px;
+}
+.iconos2 .logofooter {
+    height: 53px;
+    width: 174px;
+
+    padding: 0px;
+}
+.icc {
+    margin-left: auto;
+    margin-right: 80px;
+}
+.icc img {
+    margin: 0 40px;
 }
 .sep {
     display: flex;
@@ -668,6 +696,63 @@ a {
     background-color: #131921;
     text-align: center;
     padding-top: 20px;
+}
+.flex-foot {
+    display: flex;
+    padding-top: 40px;
+}
+.foot-desc {
+    width: 40vw;
+    margin-left: 85px;
+    text-align: left;
+    padding-top: 10vh;
+}
+.foot-desc h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+.foot-desc p {
+    color: white;
+    font-family: "myriad";
+}
+.contacto {
+    background-color: whitesmoke;
+    width: 622px;
+    height: 400px;
+    text-align: left;
+    margin-left: 150px;
+}
+.contacto h1 {
+    text-align: left;
+    margin: 0 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+form {
+    margin: 0 20px;
+    text-align: left;
+}
+form input {
+    background-color: #9b9b9b;
+    margin: 20px 0;
+    font-size: 15px;
+}
+#firstname {
+    width: 237px;
+    height: 40px;
+}
+#lastname {
+    width: 237px;
+    height: 40px;
+    margin-left: 18px;
+}
+#email {
+    width: 494px;
+    height: 40px;
+}
+.contacto h1 {
+    margin-top: 40px;
+    color: black;
+    font-size: 1.5rem;
 }
 .logofooter {
     height: auto;
