@@ -96,6 +96,7 @@ canvas {
     line-height: 8vh;
     vertical-align: middle;
     background-color: #141921;
+    transition: top 0.3s;
 }
 .navbar2 img {
     margin-left: 65px;
@@ -353,7 +354,7 @@ a {
     display: flex;
     background-color: #ffffff;
     margin-top: 0vh;
-    margin: 0 40px;
+    margin: 0 20px;
     padding: 0 0px 0 0px;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -362,7 +363,7 @@ a {
 }
 .descubre {
     background: linear-gradient(213.54deg, #ebc61d 10.15%, #faa51a 88.66%);
-    margin: 0 40px;
+    margin: 0 20px;
     height: 20vh;
 }
 .descubre h2 {
@@ -385,7 +386,7 @@ a {
     padding: 0 0px 100px 0px;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0 40px;
+    margin: 0 20px;
 }
 .flex-item h1 {
     color: #5a5a5a;
@@ -480,7 +481,7 @@ a {
 .contenedor {
     background: linear-gradient(213.54deg, #ebc61d 10.15%, #faa51a 88.66%);
     z-index: -2;
-    margin: 0 40px;
+    margin: 0 20px;
 }
 .timeline {
     position: relative;
@@ -665,7 +666,7 @@ a {
 
     padding-bottom: 80px;
     background-color: white;
-    margin: 0 40px;
+    margin: 0 20px;
 }
 .equipo h1 {
     color: #5a5a5a;
@@ -769,7 +770,7 @@ form input {
 
     justify-content: space-around;
     background-color: white;
-    margin: 0 40px;
+    margin: 0 20px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
