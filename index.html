@@ -52,17 +52,8 @@
        
         <div class="navbar2" id="navbar2"> 
             <a href="index.html"> <img src="./img/logo2.png" alt="" /></a>
-            <div class="nav-toggle menus">
-                <div class="nav-toggle-bar"></div>
-              </div>
-              <nav class="nav menus">
-                <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </nav>
+            
+             
            
             <ul class="menu">
                 <li>Home</li>
@@ -113,10 +104,7 @@
                 <h1>DISEÑO DE WEB</h1>
                 <p>
                     Impulsamos la presencia de tu marca en la web, mejora y
-                    aumenta tus ventas <br />Combinamos diseño de interfaz,
-                    experiencia de usuario y optimización SEO para crear sitios
-                    web que posicionen a las marcas como la mejor opción en su
-                    área.
+                    aumenta tus ventas 
                 </p>
                     <a href="team.html"> <div class="button3">Saber más</div></a>
             </div>
@@ -127,8 +115,7 @@
                 <p>
                     Todo lo que necesita para comenzar a vender en línea,
                     Obtenga pagos seguros, opciones de envío configurables y
-                    más, listo para usar. Cualquier producto se puede vender en
-                    e-commerce.
+                    más.
                 </p>
                     <a href="team.html"> <div class="button3">Saber más</div></a>
             </div>
@@ -366,17 +353,30 @@
           <script src="js/hidenav.js"></script>
           <script src="js/burger.js"></script>
           <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/60775c0df7ce1827093a80f4/1f393v5lc';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v10.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- Your Chat Plugin code -->
+<div class="fb-customerchat"
+  attribution="page_inbox"
+  page_id="1794491690764365">
+</div>
     <!--End of Tawk.to Script-->
     </body>
     <!-- scripts -->
