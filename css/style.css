@@ -122,9 +122,9 @@ canvas {
     background-color: teal;
     position: absolute;
     z-index: 9;
-    top: -60%;
+    top: -100%;
     right: -0%;
-    transition: top 0.3s;
+    transition: top 0.5s;
 }
 .slide.show {
     top: 0%;
@@ -802,15 +802,16 @@ form input {
     display: flex;
 
     justify-content: space-around;
+
     background-color: white;
     margin: 0 20px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 .fleximg img {
-    width: 650px;
+    width: 100%;
 }
-#que1 {
+#que1 img {
     width: auto;
     height: 700px;
 }
@@ -819,6 +820,7 @@ form input {
     width: auto;
 }
 .fleximg {
+    max-width: 750px;
     height: 600px;
     display: flex;
     align-items: center;
@@ -947,7 +949,7 @@ form input {
         position: absolute;
         height: 100%;
         width: 8px;
-        background-color: #000000;
+        background-color: #ffffff;
         left: 6%;
         z-index: 5;
         overflow: hidden;
@@ -1015,6 +1017,10 @@ form input {
         align-items: center;
         border-radius: 50%;
     }
+    .padre img {
+        height: 40px;
+        width: 40px;
+    }
     .navbar2 .menu {
         display: none;
     }
@@ -1060,6 +1066,12 @@ form input {
     @media (max-width: 425px) {
         .navbar2 {
             height: 55px;
+        }
+        .navbar2 img {
+            margin-left: 20px;
+        }
+        .hamburger {
+            margin-right: 25px;
         }
         .column {
             margin-top: 125px;
