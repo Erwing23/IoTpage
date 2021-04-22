@@ -814,6 +814,10 @@ form input {
     width: auto;
     height: 700px;
 }
+#eco {
+    height: 600px;
+    width: auto;
+}
 .fleximg {
     height: 600px;
     display: flex;
