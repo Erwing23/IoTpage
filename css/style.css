@@ -35,9 +35,14 @@ canvas {
     left: 0;
     right: 0;
     text-align: center;
-    max-width: 90vw;
+    max-width: 100vw;
     z-index: 2;
     height: 100vh;
+    background-image: url("../img/back.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .column {
     float: left;
@@ -47,6 +52,7 @@ canvas {
 }
 .left {
     margin-top: 10vh;
+    margin-left: 80px;
 }
 .wrapper p {
     color: white;
@@ -89,14 +95,42 @@ canvas {
 }
 .navbar2 {
     height: 8vh;
-    z-index: 100;
+    z-index: 10;
     position: fixed;
     top: 0;
     width: 100%;
     line-height: 8vh;
     vertical-align: middle;
-    background-color: #141921;
+    background-color: rgba(20, 25, 33, 1);
     transition: top 0.3s;
+    display: flex;
+    justify-content: space-between;
+}
+.hamburger {
+    background-color: transparent;
+    color: white;
+    border: 0;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 80px;
+    display: none;
+    z-index: 11;
+}
+.slide {
+    width: 50vw;
+    height: 400px;
+    background-color: teal;
+    position: absolute;
+    z-index: 9;
+    top: -60%;
+    right: -0%;
+    transition: top 0.3s;
+}
+.slide.show {
+    top: 0%;
+}
+.hamburger:focus {
+    outline: none;
 }
 .navbar2 img {
     margin-left: 65px;
@@ -218,6 +252,7 @@ canvas {
     font-family: "myriad";
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 .button4 {
     width: 8rem;
     height: 3rem;
@@ -231,6 +266,7 @@ canvas {
     animation-duration: 2s;
     animation-iteration-count: infinite;
     font-family: "myriad";
+    border: 0;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .button4:hover {
@@ -384,11 +420,12 @@ a {
     margin: 0 20px;
 }
 .flex-item h1 {
-    color: #5a5a5a;
+    color: #4b4c56;
     font-size: 3rem;
     padding: 0px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 .flex-item p {
     color: #5a5a5a;
     font-size: 1.5rem;
@@ -420,7 +457,7 @@ a {
     margin: auto;
 }
 .flex-item-sec h1 {
-    color: #5a5a5a;
+    color: #4b4c56;
     font-size: 2rem;
     text-align: center;
 }
@@ -669,7 +706,7 @@ a {
     border-radius: 30px;
 }
 .equipo h1 {
-    color: #5a5a5a;
+    color: #4b4c56;
 
     margin-top: 50px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -731,6 +768,7 @@ form input {
     background-color: #9b9b9b;
     margin: 20px 0;
     font-size: 15px;
+    border: 0;
 }
 #firstname {
     width: 200px;
@@ -747,7 +785,7 @@ form input {
 }
 .contacto h1 {
     margin-top: 40px;
-    color: black;
+    color: #4b4c56;
     font-size: 1.5rem;
 }
 .logofooter {
@@ -756,7 +794,7 @@ form input {
     margin-bottom: 30px;
 }
 .flexpar h1 {
-    color: black;
+    color: #4b4c56;
     font-size: 3rem;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -838,6 +876,9 @@ form input {
 @media (max-width: 900px) {
     .menus {
         display: none;
+    }
+    .hamburger {
+        display: block;
     }
     .left {
         margin-top: 0;
