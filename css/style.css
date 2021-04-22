@@ -808,7 +808,17 @@ form input {
     padding-bottom: 40px;
 }
 .fleximg img {
-    width: 525px;
+    width: 650px;
+}
+#que1 {
+    width: auto;
+    height: 700px;
+}
+.fleximg {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
 }
 .flextext {
     max-width: 70vh;
