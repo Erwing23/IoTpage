@@ -628,7 +628,7 @@ a {
 .iconos2 {
     display: flex;
     justify-content: flex-end;
-    margin: 0 85px;
+    margin: 0 10px;
     margin-bottom: 40px;
     margin-top: 80px;
 }
@@ -646,10 +646,10 @@ a {
 }
 .icc {
     margin-left: auto;
-    margin-right: 80px;
+    margin-right: 5px;
 }
 .icc img {
-    margin: 0 40px;
+    margin: 0 50px;
 }
 .sep {
     display: flex;
@@ -739,15 +739,16 @@ a {
     background-color: #131921;
     text-align: center;
     padding-top: 20px;
-    padding: 0 80px;
+    padding: 0 40px;
 }
 .flex-foot {
     display: flex;
     padding-top: 40px;
+    justify-content: space-around;
 }
 .foot-desc {
     width: 40vw;
-    margin-left: 85px;
+    margin-left: 0px;
     text-align: center;
     padding-top: 0vh;
 }
@@ -882,10 +883,13 @@ form input {
         margin-bottom: 0vh;
     }
     .flexpar {
-        padding: 0 40px;
+        padding: 20px 40px;
     }
     .flextext {
         width: 40vw;
+    }
+    .fleximg {
+        height: auto;
     }
     .footer {
         margin: 0 40px;
@@ -1069,6 +1073,9 @@ form input {
         width: 80vw;
     }
     @media (max-width: 425px) {
+        .flextext h1 {
+            font-size: 2rem;
+        }
         .navbar2 {
             height: 55px;
         }
@@ -1112,10 +1119,11 @@ form input {
         .descubre {
             margin: 0 0;
             height: auto;
+
             padding: 0 30px;
         }
         .descubre h2 {
-            font-size: 3rem;
+            font-size: 2rem;
         }
         .flex-container2 .flex-item-sec {
             min-width: 80vw;
