@@ -278,6 +278,7 @@ canvas {
     height: 400px;
     text-align: left;
     margin-left: 75px;
+    margin-top: 50px;
     overflow-y: hidden;
     border-radius: 10px;
 }
@@ -706,7 +707,7 @@ a {
     padding-bottom: 80px;
     background-color: white;
     margin: 0 20px;
-    margin-top: 25px;
+    margin-top: 40px;
     border-radius: 30px;
 }
 .equipo h1 {
@@ -747,16 +748,15 @@ a {
 .foot-desc {
     width: 40vw;
     margin-left: 85px;
-    text-align: left;
-    padding-top: 10vh;
+    text-align: center;
+    padding-top: 0vh;
 }
 .foot-desc h1 {
     color: white;
     font-size: 2.5rem;
 }
-.foot-desc p {
-    color: white;
-    font-family: "myriad";
+.foot-desc img {
+    width: 300px;
 }
 
 .contacto h1 {
