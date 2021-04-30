@@ -26,7 +26,6 @@ canvas {
     display: block;
 }
 .wrapper {
-    margin-top: 50px;
     position: relative;
     font-size: 30px;
     font-family: "poppinsbold";
@@ -43,12 +42,13 @@ canvas {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
 }
 .column {
     float: left;
     width: 60%;
     text-align: left;
-    margin-top: 13vh;
 }
 .left {
     margin-top: 10vh;
@@ -66,9 +66,9 @@ canvas {
     height: 6rem;
 }
 #banner {
-    float: left;
     width: 40%;
-    margin-top: 10vh;
+    display: flex;
+    align-items: center;
 }
 .ver {
     position: absolute;
@@ -94,7 +94,7 @@ canvas {
     animation-timing-function: ease;
 }
 .navbar2 {
-    height: 8vh;
+    height: 56px;
     z-index: 10;
     position: fixed;
     top: 0;
@@ -284,7 +284,7 @@ canvas {
 }
 
 #banner img {
-    height: 700px;
+    height: 600px;
     width: auto;
     margin: auto;
 }
@@ -1073,6 +1073,12 @@ form input {
         width: 80vw;
     }
     @media (max-width: 425px) {
+        .wrapper {
+            background-image: url("../img/cel-min.png");
+        }
+        .arrow {
+            display: none;
+        }
         .flextext h1 {
             font-size: 2rem;
         }
@@ -1081,6 +1087,8 @@ form input {
         }
         .navbar2 img {
             margin-left: 20px;
+            height: 35px;
+            width: auto;
         }
         .hamburger {
             margin-right: 25px;
