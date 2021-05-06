@@ -37,27 +37,45 @@ canvas {
     max-width: 100vw;
     z-index: 2;
     height: 100vh;
-    background-image: url("../img/back.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: white;
     display: flex;
     align-items: center;
 }
 .column {
     float: left;
-    width: 60%;
+    width: 50%;
     text-align: left;
 }
 .left {
-    margin-top: 10vh;
-    margin-left: 80px;
+    margin-top: 0vh;
+    margin-left: 40px;
+    padding-left: 40px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 120px;
+}
+.left h1 {
+    color: rgb(27, 43, 90);
+    font-size: 70px;
+    margin-bottom: -25px;
+}
+.left span {
+    color: rgb(255, 145, 77);
+    margin-bottom: 40px;
+}
+#movil {
+    position: absolute;
+    bottom: 15%;
+    left: 45%;
+    width: 500px;
+    z-index: 1;
 }
 .wrapper p {
-    color: white;
+    color: rgb(27, 43, 90);
     font-family: "myriad";
-    margin-bottom: 80px;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 60px;
 }
 .column img {
     margin-left: -16px;
@@ -66,9 +84,10 @@ canvas {
     height: 6rem;
 }
 #banner {
-    width: 40%;
+    width: 50%;
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
 }
 .ver {
     position: absolute;
@@ -80,7 +99,7 @@ canvas {
     width: 100%;
     font-size: 1.5rem;
     text-align: center;
-    color: white;
+    color: black;
     top: 90%;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -99,7 +118,7 @@ canvas {
     position: fixed;
     top: 0;
     width: 100%;
-    line-height: 8vh;
+    line-height: 56px;
     vertical-align: middle;
     background-color: rgba(20, 25, 33, 1);
     transition: top 0.3s;
@@ -221,12 +240,13 @@ canvas {
 }
 .button {
     width: 15rem;
-    height: 3rem;
-    font-size: 1.5rem;
+    height: 3.5rem;
+    font-size: 2rem;
     margin: 0;
-    line-height: 3rem;
+    line-height: 3.5rem;
     margin-top: 15px;
-    background-color: #f59a21;
+    margin-bottom: 25px;
+    background-color: rgb(255, 145, 77);
     text-align: center;
     border-radius: 30px;
     text-decoration: none;
@@ -284,8 +304,6 @@ canvas {
 }
 
 #banner img {
-    height: 600px;
-    width: auto;
     margin: auto;
 }
 h1 {
@@ -392,6 +410,8 @@ a {
     justify-content: space-evenly;
     height: auto;
     padding-bottom: 15vh;
+
+    padding-top: 85px;
 }
 .descubre {
     background: linear-gradient(213.54deg, #ebc61d 10.15%, #faa51a 88.66%);
@@ -488,9 +508,7 @@ a {
     display: flex;
     background-color: rgb(255, 255, 255);
     margin-top: 0px;
-    width: 45vw;
-    height: 80vh;
-
+    max-width: 40vw;
     flex-direction: column;
     justify-content: center;
 
@@ -834,7 +852,10 @@ form input {
 }
 .flextext {
     max-width: 70vh;
-    margin-top: 20vh;
+    min-width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .linkk {
     color: blue;
@@ -920,8 +941,7 @@ form input {
         text-align: center;
     }
     .flex-item {
-        width: 60vw;
-        height: 60vh;
+        max-width: 60vw;
     }
     .flex-item h1 {
         font-size: 2.5rem;
@@ -1034,7 +1054,7 @@ form input {
         display: none;
     }
     .flex-item {
-        height: 50vh;
+        height: auto;
     }
     .flexpar {
         flex-direction: column;
