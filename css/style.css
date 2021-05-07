@@ -58,6 +58,8 @@ canvas {
     color: rgb(27, 43, 90);
     font-size: 70px;
     margin-bottom: -25px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .left span {
     color: rgb(255, 145, 77);
@@ -65,10 +67,16 @@ canvas {
 }
 #movil {
     position: absolute;
-    bottom: 15%;
+    bottom: 25%;
     left: 45%;
-    width: 500px;
+    width: 350px;
     z-index: 1;
+}
+#base {
+    width: 720px;
+    background: #000052;
+    margin-bottom: 24px;
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.25);
 }
 .wrapper p {
     color: rgb(27, 43, 90);
@@ -86,7 +94,7 @@ canvas {
 #banner {
     width: 50%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 100px;
 }
 .ver {
@@ -253,6 +261,8 @@ canvas {
     color: white;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     font-family: "myriad";
 }
 .button3 {
@@ -303,9 +313,6 @@ canvas {
     border-radius: 10px;
 }
 
-#banner img {
-    margin: auto;
-}
 h1 {
     color: white;
     font-size: 3.5rem;
